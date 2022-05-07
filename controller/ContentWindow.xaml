@@ -1,0 +1,21 @@
+﻿<Window x:Class="Cerberus.controller.ContentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Cerberus.controller"
+        mc:Ignorable="d"
+        Title="Cerberus (Content)" Height="600" Width="800"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner">
+    
+    <Grid Background="LightSlateGray">
+        <StackPanel Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                    Orientation = "Vertical">
+            <TextBox Width="750" Height="520" HorizontalAlignment="Center" VerticalAlignment="Center"
+                       Background="White" TextAlignment="Justify" TextWrapping="Wrap" FontFamily="Arial" FontSize="18" 
+                       AcceptsReturn="True" VerticalScrollBarVisibility="Visible" Name="ContentArea"/>
+            <Button Width="100" Height="30" Margin = "5" Content="Done" FontFamily="Arial" FontSize="14" Click="Done"/>
+        </StackPanel>
+    </Grid>
+</Window>

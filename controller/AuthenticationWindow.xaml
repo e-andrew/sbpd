@@ -1,0 +1,35 @@
+﻿<Window x:Class="Cerberus.controller.AuthenticationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Cerberus.controller"
+        mc:Ignorable="d"
+        Title="Cerberus (Authentication)" Height="150" Width="300"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterOwner">
+    <Grid Background="LightSlateGray">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        
+        <Label Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"
+               Content="Question" FontFamily="Arial" FontSize="18"/>
+        <Label Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right" VerticalAlignment="Center"
+               Content="Answer" FontFamily="Arial" FontSize="18"/>
+        
+        <TextBlock Grid.Row = "0" Grid.Column = "1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Background="White" Height="24" Width="200" Name="QuestionArea"/>
+        <TextBox Grid.Row = "1" Grid.Column = "1" HorizontalAlignment="Center" VerticalAlignment="Center"
+                 Height="24" Width="200" Name="AnswerArea"/>
+        
+        <Button Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" Width="90" Height="30" Margin = "5"
+                Content="Accept" FontFamily="Arial" FontSize="14" Click="Accept"/>
+    </Grid>
+</Window>
