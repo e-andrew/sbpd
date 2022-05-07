@@ -191,37 +191,37 @@ General:   Execute | Expand | Rewrite | Delete | Copy | Rename | Replace
 Для цього модуля зарезервовано розширення ".cerenc".
 
 ## Testing
-test.test@gmail.com
+Login: test.test@gmail.com
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test2
+Login: test2
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test3
+Login: test3
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test4
+Login: test4
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test5
+Login: test5
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test6
+Login: test6
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test7
+Login: test7
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
-test8
+Login: test8
 
-@tT2@tT2@tT2@tT2
+Password: @tT2@tT2@tT2@tT2
 
 ## Troubleshooting
 
